@@ -1,53 +1,46 @@
-# Norva Living — Furniture E-Commerce Landing Page
+# Norva Living — Sign-Up Page
 
-A fully responsive landing page for **Norva Living**, a fictional modern furniture and home decor brand. Built to practice hand-written CSS layout, scroll-based animation, and interactive UI without any CSS framework.
+A clean, modern sign-up/authentication page for **Norva Living**, a fictional furniture brand. Built to practice form design and layout using Tailwind CSS.
 
-🔗 **Live Demo:** [priown.github.io/Norva-Living](https://priown.github.io/Norva-Living/)
+🔗 **Live Demo:** [priown.github.io/Norva-living-form-page](https://priown.github.io/Norva-living-form-page/) *(verify this matches your GitHub Pages URL)*
 
 ## Overview
 
-This project recreates the look and feel of a modern furniture brand’s homepage — scrolling promo bar, sticky nav with mobile hamburger menu, hero banners, alternating feature sections, an infinite marquee strip, and a detailed footer with a working subscribe interaction.
+This project focuses on a single, well-crafted UI: a centered sign-up card with email/username/password fields, social sign-up options, and a link to sign in — a common pattern for e-commerce and lifestyle brand onboarding flows.
 
 ## Features
 
-- **Scrolling utility bar** with rotating promo messages
-- **Responsive navbar** with logo, anchor-linked nav, icons, and a mobile hamburger toggle
-- **Hero section** with full-width image and CTA button that smooth-scrolls to featured products
-- **Alternating feature blocks** (image/text, text/image) showcasing products
-- **Infinite marquee strip** cycling through brand taglines
-- **Scroll-triggered fade-in animations** using the Intersection Observer API
-- **Interactive subscribe button** that updates its label and color on click
-- **Multi-column footer** with brand info, nav links, philosophy blurb, and social icons
+- **Centered card layout** on a soft branded background
+- Sign-up form with **email, username, password, and confirm password** fields
+- Rounded pill-style inputs and buttons for a modern, approachable feel
+- **Social sign-up options** (Google, Apple, Microsoft) with icon buttons
+- Divider (“or”) separating primary and social sign-up paths
+- Link to switch to sign-in for returning users
 - Fully responsive, mobile-first layout
 
 ## Tech Stack
 
-- **HTML5** — semantic page structure
-- **CSS3** — custom stylesheet (no framework), responsive layout, animations
-- **Vanilla JavaScript** — hamburger menu toggle, smooth scroll, Intersection Observer for fade-ins, subscribe button interaction
+- **HTML5** — semantic form structure
+- **Tailwind CSS** (via CDN) — utility-first styling, responsive layout
 
 ## Project Structure
 
 ```
-Norva-Living/
-├── index.html                      # Main landing page
-├── style.css                       # All page styling
-├── script.js                       # Interactivity (nav, scroll, animations)
-├── dizayn03.jpg                    # Hero image
-├── chair.jpg                       # Feature image
-├── ceramicvase.jpg                 # Feature image
-├── banniere_hero_169__32_.png      # Secondary hero banner
-└── i.webp                          # Additional image asset
+Norva-living-form-page/
+├── index.html      # Sign-up page
+├── apple.png       # Apple sign-up icon
+├── google.jpeg     # Google sign-up icon
+└── images.png      # Additional social icon
 ```
 
 ## Getting Started
 
-No build tools or dependencies required.
+No build tools or dependencies required — Tailwind is loaded via CDN.
 
 1. Clone the repo
    
    ```bash
-   git clone https://github.com/priown/Norva-Living.git
+   git clone https://github.com/priown/Norva-living-form-page.git
    ```
 1. Open `index.html` directly in your browser, or serve it locally:
    
@@ -57,11 +50,10 @@ No build tools or dependencies required.
 
 ## What I Practiced
 
-- Writing layout and responsive behavior in plain CSS instead of a utility framework
-- Using the Intersection Observer API to trigger scroll animations
-- Building a CSS marquee effect for continuous scrolling content
-- Wiring up basic JS interactions (mobile menu toggle, smooth scroll, button state change)
-- Structuring a multi-section e-commerce landing page
+- Designing a focused, single-purpose UI (auth/sign-up flow)
+- Working with form elements and Tailwind’s utility classes for spacing, rounding, and color
+- Structuring a card-based layout centered within a full-height viewport
+- Combining custom inline styles with Tailwind utilities where needed
 
 ## Author
 
